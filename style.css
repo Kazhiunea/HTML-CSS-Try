@@ -1,0 +1,51 @@
+h2{
+	color:blueviolet;
+}
+
+h2 em{
+	color:darkred;
+}
+
+body{
+	background-color:#A2A2A2;
+	color:skyblue;
+
+	font-family:"Comic Sans MS", "Comic Sans";
+	font-size: 20px;
+	line-height: 1.5em;
+}
+
+.randomText{
+	background-color: black;
+}
+
+#table {
+	background-color: #FFF;
+}
+
+.sellingWindow{
+	border: 1px solid yellow;
+}
+
+.sellingWindow > h3{
+	background-color: darkred;
+}
+
+.sellingWindow div{
+	color: darkblue !important;
+}
+
+.sellingWindow div{
+	color: green ;
+}
+
+.randomText *[type="second"]{
+	color: darkred;
+}
+
+@media only screen and (max-width: 600px) {
+      body{
+      	background-color: navy;
+      	line-height: 3em ;
+      }
+}
